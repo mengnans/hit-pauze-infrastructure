@@ -14,7 +14,7 @@ interface BaseStackOutput {
   ecsCluster: EcsCluster;
 }
 
-const ProjectName = "bmx";
+const ProjectName = "hitpauze";
 
 // S3 Buckets for Frontend projects
 class ProjectStack extends TerraformStack {
@@ -22,7 +22,7 @@ class ProjectStack extends TerraformStack {
   private readonly _projectName = ProjectName;
   private readonly _acmCertificateArn =
     "arn:aws:acm:us-east-1:864736175158:certificate/9e0f3cc3-500f-4d49-a246-6884e2f43044";
-  private readonly _dbPassword = "1zkJ3TaIr8VmnzoY";
+  private readonly _dbPassword = "PzkJ3TaI98Vmnz8Y";
   private readonly _hostedZoneId = "Z02578703SJZ5HLD246MH";
   private readonly _profile = "rhdev";
   private readonly _domainName = "fastflow.app";
